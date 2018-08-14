@@ -12,7 +12,7 @@ const ExpenseListFilter = (props) => (
             {
                 props.dispatch(sortByDate());
             }
-            else if ( e.target.value == 'amount')
+            else if ( e.target.value == 'amount' )
             {
                 props.dispatch(sortByAmount());
             }            
