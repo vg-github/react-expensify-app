@@ -3,6 +3,12 @@
 exports[`should render expense list with empty message 1`] = `
 <div>
   <p>
+    You have 
+    0
+     expenses, totalling: 
+    $0.00
+  </p>
+  <p>
     No expenses available.
   </p>
 </div>
@@ -10,6 +16,12 @@ exports[`should render expense list with empty message 1`] = `
 
 exports[`should render expense list with expenses 1`] = `
 <div>
+  <p>
+    You have 
+    3
+     expenses, totalling: 
+    $1,141.95
+  </p>
   <ExpenseListItem
     amount={195}
     createdAt={0}
